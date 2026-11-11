@@ -3,6 +3,20 @@
     <channel>
         <title>Tradewind</title>
         <item>
+            <title>1.1.0</title>
+            <pubDate>Wed, 11 Nov 2026 16:35:42 +1100</pubDate>
+            <link>https://github.com/MilkshakeSR/Tradewind</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><title>Tradewind 1.1.0</title>
+<style>body{font:13px -apple-system,sans-serif;margin:16px;color:#222}h2{margin:0 0 4px}h3{margin:14px 0 4px;color:#0e7c86}
+li{margin:3px 0}@media (prefers-color-scheme:dark){body{color:#eee;background:#1e1e1e}}</style></head>
+<body><h2>Tradewind 1.1.0</h2><p>Navigation fixes, far fewer data requests, free heatmap and top movers, back navigation</p><h3>Added</h3><ul><li>Back navigation: a back button named after where you came from returns you to the same list, scroll position, sort, filters and toggles. ⌘[ and ⌘] go back and forward, a two-finger swipe right goes back, and Esc closes a stock opened from search. Opening a peer goes back to the previous stock.</li><li>Optional split view (Settings → General) that keeps the list visible beside a stock.</li><li>Free plan setup: Twelve Data, Massive and Alpha Vantage join EODHD and Finnhub. Tradewind sends each request to the provider with the most allowance left and moves on automatically when one runs out.</li><li>Settings → Data: a comparison of the free plans, step-by-step sign-up with links, a Test button for each key, the cheapest paid upgrade, a usage meter per provider with a breakdown by feature, and editable limits.</li><li>Sector heatmap on free plans: a treemap grouped by sector and sized by market cap, with Today, 1 Week, 1 Month and YTD, a colour-blind option, and a saved view when live data isn&#x27;t available.</li><li>Top movers on free plans: gainers, losers, most active and unusual volume, with a minimum price and size filter, sparklines, a watchlist button and a note of where the data came from.</li><li>A What&#x27;s New screen, shown once after updating.</li></ul><h3>Changed</h3><ul><li>Tradewind now opens from saved prices and fetches only what&#x27;s on screen and out of date. Launch makes far fewer requests.</li><li>Prices refresh every 60 seconds while a market is open and on screen, and not at all once a market has closed and the last price is from after the close. Refreshing pauses in the background and during sleep, and slows on battery.</li><li>Each request has a priority, so what you&#x27;re looking at always comes first and background extras pause first when the allowance runs low.</li><li>The ⌘1 … ⌘9 sections are listed in the View menu, and each section keeps its place when you switch away and back. The last section is remembered between launches.</li><li>Paper Trading positions and portfolio holdings now use a simple grid layout.</li></ul><h3>Fixed</h3><ul><li>Clicking the sidebar now switches sections.</li><li>&quot;Your data plan has reached its limit for today&quot; no longer appears on launch. If a limit really is reached, Tradewind switches provider, then shows saved prices with a small note in the toolbar.</li><li>Invalid keys, per-minute limits, daily limits and network errors each get their own correct message.</li><li>The sector heatmap and top movers no longer come up empty without a paid plan.</li><li>Fixed a crash when leaving the Portfolios section.</li></ul></body></html>]]></description>
+            <enclosure url="https://github.com/MilkshakeSR/Tradewind/releases/download/v1.1.0/Tradewind.dmg" length="5910486" type="application/octet-stream" sparkle:edSignature="wka3XjrP88T4CFiaFfroY6ByhpA0KAM1+JGDKKSn7cUKLlLnQfrur2Wwt+EftbIKiwKPQ3vFyLatkdfH4ZJVDQ=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Tue, 10 Nov 2026 14:17:35 +1100</pubDate>
             <link>https://github.com/MilkshakeSR/Tradewind</link>

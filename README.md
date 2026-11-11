@@ -12,8 +12,14 @@
 
 ![Insights](screenshots/4-insights.png)
 
+| Sector heatmap and top movers, on free data plans | Back to exactly where you were |
+|---|---|
+| ![Sector heatmap and top movers](screenshots/5-heatmap-and-movers.png) | ![Back button on a stock page](screenshots/6-back-button.png) |
+
 ## Features
 - **Market overview**: ASX, NYSE and Nasdaq open/closed status with countdowns in Sydney time, index cards (S&P/ASX 200, All Ords, S&P 500, Dow, Nasdaq), AUD/USD, gold, oil and Bitcoin, top movers, a sector heatmap, market news and this week's calendar.
+- **Sector heatmap and top movers that work on free data plans**: a treemap sized by market cap with Today, 1 Week, 1 Month and YTD, plus gainers, losers, most active and unusual volume, each labelled with its source and freshness.
+- **Back navigation**: a back button, ⌘[ and ⌘], and a two-finger swipe return you to the same list, scroll position and filters.
 - **Search** (⌘K) across ASX and US stocks and ETFs.
 - **Full stock pages** in tabs: interactive charts (1D to Max; line, area, candlestick, OHLC) with SMA, EMA, Bollinger Bands, VWAP, RSI, MACD, Stochastic, ATR and On-Balance Volume, a crosshair, drag-to-measure, zoom, comparison overlays, dividend/earnings/split markers and your own trades; 30 key statistics explained in plain English; financials, earnings, dividends (with franking), analysts, news and ASX announcements, ownership, peers and private notes.
 - **Insights you can see through**: an overall signal from −100 to +100 built from trend, valuation, quality and analyst views, with adjustable weights, support and resistance levels, what would change the signal, and an honest five-year backtest.
@@ -29,7 +35,7 @@
 ## Requirements
 - A Mac with Apple silicon (M1 or later)
 - macOS 14 Sonoma or later
-- For live prices: an API key from [EODHD](https://eodhd.com) (ASX and US; free plan available, recommended plan US$19.99 a month) and optionally [Finnhub](https://finnhub.io) (free real-time US prices). Tradewind explains each step in Settings → Data.
+- For live prices: free API keys from any of [EODHD](https://eodhd.com/register) (the only official free source of ASX prices, about 20 a day), [Finnhub](https://finnhub.io/register), [Twelve Data](https://twelvedata.com/pricing), [Massive](https://massive.com) and [Alpha Vantage](https://www.alphavantage.co/support/#api-key). Tradewind spreads its requests across them. The cheapest way to remove the limits is EODHD EOD All World, US$19.99 a month (about A$29).
 
 ## Install
 1. [Download Tradewind.dmg](https://github.com/MilkshakeSR/Tradewind/releases/latest/download/Tradewind.dmg).
